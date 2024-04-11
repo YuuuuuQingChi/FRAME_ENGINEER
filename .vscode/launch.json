@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "jlink",
+            "servertype": "jlink",
+            "interface": "swd",
+            "executable": "build\\Debug\\2024_ENGINEER_Frame.elf",
+            "runToEntryPoint": "main",
+            "device": "STM32H723VG",
+            "toolchainPrefix": "arm-none-eabi"
+        },
+        {
+            "name": "C/C++ Runner: Debug Session",
+            "type": "cppdbg",
+            "request": "launch",
+            "args": [],
+            "stopAtEntry": false,
+            "externalConsole": true,
+            "cwd": "d:/桌面/2024_ENGINEER_Frame/application/cmd",
+            "program": "d:/桌面/2024_ENGINEER_Frame/application/cmd/build/Debug/outDebug",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

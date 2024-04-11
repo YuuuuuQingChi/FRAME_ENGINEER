@@ -1,0 +1,15 @@
+>>> cc
+
+
+
+>>> ld
+
+c:/program files (x86)/arm gnu toolchain arm-none-eabi/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: modules/algorithm/AHRS.lib(ahrs.o) uses 2-byte wchar_t yet the output is to use 4-byte wchar_t; use of wchar_t values across objects may fail
+c:/program files (x86)/arm gnu toolchain arm-none-eabi/12.3 rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: ./build/Debug/2024_ENGINEER_Frame.elf has a LOAD segment with RWX permissions
+Memory region         Used Size  Region Size  %age Used
+         ITCMRAM:          0 GB        64 KB      0.00%
+         DTCMRAM:          0 GB       128 KB      0.00%
+           FLASH:       79216 B         1 MB      7.55%
+          RAM_D1:       93288 B       320 KB     28.47%
+          RAM_D2:          0 GB        32 KB      0.00%
+          RAM_D3:          0 GB        16 KB      0.00%

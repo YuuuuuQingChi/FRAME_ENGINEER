@@ -1,0 +1,6 @@
+r
+halt
+loadfile "e:\2024_FRAME_ENGINEER\build\Debug\2024_ENGINEER_Frame.hex"
+r
+go
+exit
